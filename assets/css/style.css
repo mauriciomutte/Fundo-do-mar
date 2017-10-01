@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: 'Montserrat', sans-serif;
+  transition: .5s;
+
+
+}
+
+.body--blue {
+  background-color: #1A3661;
+  color: #fff;
+
+  background-image: url('../img/bg.png');
+  background-size: 200% 200%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.sectionTitle {
+  font-size: 28px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.separate {
+  border-top: 2px solid #000;
+  border-radius: 2px;
+  margin: 10px auto;
+  padding-bottom: 2em;
+  width: 70px;
+}
+
+.separate--white {
+  border-color: #fff;
+}
+
+/* HEADER */
+.changeColor {
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 10px 25px;
+  float: right;
+  padding: 4px 8px;
+  outline: none;
+}
+.changeColor:hover {
+  background-color: #fff;
+  color: #1A3661;
+}
+.changeColor:active {
+  transform: scale(0.8)
+}
+
+.changeColor--blue {
+  background-color: #fff;
+  color: #1A3661;
+}
+.changeColor--blue:hover {
+  background-color: transparent;
+  color: #f1f1f1;
+}
+
+.header {
+  background-image: url('../img/bg.png');
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  -webkit-box-shadow: inset 0px 3px 29px 2px rgba(0,0,0,0.55);
+  -moz-box-shadow: inset 0px 3px 29px 2px rgba(0,0,0,0.55);
+  box-shadow: inset 0px 3px 29px 2px rgba(0,0,0,0.55);
+}
+
+.title {
+  color: #fff;
+  font-size: 38px;
+  padding: 5em 0;
+  text-align: center;
+}
+
+/* INTRODUCTION */
+.introduction__txt {
+  font-size: 18px;
+  line-height: 2;
+  margin: 5em auto;
+  max-width: 749px;
+  text-align: justify;
+}
+
+/* CURIOSITY */
+.curiosity {
+  text-align: center;
+  margin-bottom: 4em;
+}
+
+.curiosity__block {
+  display: inline-block;
+  margin: 0 3em;
+  width: 300px;
+}
+
+.curiosity__img {
+  background-color: #ccc;
+  height: auto;
+  width: 280px;
+
+  -webkit-box-shadow: 0px 0px 54px 0px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px 0px 54px 0px rgba(0,0,0,0.65);
+  box-shadow: 0px 0px 54px 0px rgba(0,0,0,0.65);
+}
+
+.curiosity__name {
+  letter-spacing: 1px;
+  padding: 10px 0 5px;
+}
+
+.curiosity__info {
+  font-weight: 300;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+/* OBSTACLES */
+.obstacles {
+  text-align: center;
+  margin-bottom: 4em;
+}
+.obstacles__block {
+  display: inline-block;
+  margin: 0 3em;
+  width: 300px;
+}
+
+.obstacles__icon {
+  background-color: #ccc;
+  border-radius: 50%;
+  height: 160px;
+  width: 170px;
+
+  -webkit-box-shadow: 0px 0px 54px 0px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px 0px 54px 0px rgba(0,0,0,0.65);
+  box-shadow: 0px 0px 54px 0px rgba(0,0,0,0.65);
+}
+
+.obstacles__name {
+  letter-spacing: 1px;
+  padding: 10px 0 5px;
+}
+
+.obstacles__info {
+  font-weight: 300;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+/* MEMBERS */
+.members {
+  background-image: url('../img/bg.png');
+  background-size: 100%;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #f1f1f1;
+  padding: 4em 0 5em;
+  text-align: center;
+
+  -webkit-box-shadow: inset 0px 3px 29px 2px rgba(0,0,0,0.55);
+  -moz-box-shadow: inset 0px 3px 29px 2px rgba(0,0,0,0.55);
+  box-shadow: inset 0px 3px 29px 2px rgba(0,0,0,0.55);
+}
+
+.members__person {
+  color: #f1f1f1;
+  display: inline-block;
+  margin: 1em 3em;
+  text-decoration: none;
+}
+.members__person:hover {color: #A3A3A3; }
+
+.person__name,
+.person__lastname {
+  display: block;
+}
+
+.person__name {
+  font-size: 21px;
+  font-weight: 600
+}
+
+.person__lastname {
+  font-size: 17px;
+}
+
+@media (max-width: 768px) {
+  /* HEADER */
+  .changeColor {
+    background: #fff;
+    border-color: #141414;
+    color: #141414;
+    display: block;
+    margin: auto;
+    float: none;
+    text-align: center;
+  }
+  .changeColor:hover {
+    background-color: #fff;
+    color: #141414;
+  }
+  .changeColor:active {
+    transform: scale(0.8)
+  }
+  
+  .changeColor--blue {
+    background-color: #fff;
+    color: #141414;
+  }
+  .changeColor--blue:hover {
+    background-color: #fff;
+    color: #141414;
+  }
+
+  .header {
+    background-size: auto;
+    padding-top: 10px;
+  }
+  /* INTRODUCTION */
+  .introduction__txt {
+    padding: 0 25px;
+  }
+
+  /* CURIOSITY */
+  .curiosity__block {
+    display: block;
+    margin: auto;
+  }
+  .curiosity__block + .curiosity__block {
+    margin-top: 4em;
+  }
+
+  /* OBSTACLES */
+  .obstacles__block {
+    display: block;
+    margin: auto;
+  }
+  .obstacles__block + .obstacles__block {
+    margin-top: 4em;
+  }
+
+  /* MEMBERS */
+  .members {
+    background-size: auto;
+  }
+  
+  .members__person {
+    display: block;
+    padding: 1em 0;
+  }
+}
