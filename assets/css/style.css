@@ -6,8 +6,6 @@
 .body {
   font-family: 'Montserrat', sans-serif;
   transition: .5s;
-
-
 }
 
 .body--blue {
@@ -286,6 +284,17 @@
 
 @media (max-width: 768px) {
   /* HEADER */
+  .changeLanguage {
+    background: #fff;
+    border-color: #141414;
+    color: #141414;
+    display: block;
+    margin: 0 auto 5px;
+    float: none;
+    text-align: center;
+    width: 160px;
+  }
+
   .changeColor {
     background: #fff;
     border-color: #141414;
@@ -295,7 +304,8 @@
     float: none;
     text-align: center;
   }
-  .changeColor:hover {
+  .changeColor:hover,
+  .changeLanguage:hover {
     background-color: #fff;
     color: #141414;
   }
